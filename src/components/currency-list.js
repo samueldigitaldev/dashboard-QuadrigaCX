@@ -17,11 +17,12 @@ function CurrencyList (props) {
         />
         )
     });
-    
 
     return( 
-        <div className="currency-item-list">
-            {currencyListItem}
+        <div>
+            <div className="currency-item-list">
+                {currencyListItem}
+            </div>
         </div>
     )
 }
